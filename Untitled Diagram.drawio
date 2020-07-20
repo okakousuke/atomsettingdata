@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-20T05:27:05.467Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="LveFdD82b4Q5X9MsW_x_" version="13.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-20T05:27:56.990Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="e2bGQwTNNaqT_-uCAbHd" version="13.4.8" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="1185" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="1">
       <root>
@@ -114,7 +114,7 @@
         <mxCell id="FSRS8m-M1Gx-CwQgRFkG-65" value="&lt;span&gt;IDキューの確認&lt;/span&gt;" style="html=1;whiteSpace=wrap;rounded=1;dropTarget=0;strokeColor=#000000;" vertex="1" parent="3">
           <mxGeometry x="23.75" y="107.5" width="102.5" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="FSRS8m-M1Gx-CwQgRFkG-66" value="" style="shape=mxgraph.bpmn.timer_start;perimeter=ellipsePerimeter;html=1;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;" vertex="1" parent="FSRS8m-M1Gx-CwQgRFkG-65">
+        <mxCell id="FSRS8m-M1Gx-CwQgRFkG-66" value="" style="shape=mxgraph.bpmn.timer_start;perimeter=ellipsePerimeter;html=1;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="FSRS8m-M1Gx-CwQgRFkG-65">
           <mxGeometry x="1" y="1" width="30" height="30" relative="1" as="geometry">
             <mxPoint x="-40" y="-15" as="offset" />
           </mxGeometry>
@@ -188,8 +188,8 @@
             <mxPoint x="-2" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FSRS8m-M1Gx-CwQgRFkG-127" value="" style="shape=mxgraph.bpmn.timer_start;perimeter=ellipsePerimeter;html=1;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;" vertex="1" parent="4">
-          <mxGeometry x="175.91000000000008" y="262.27" width="30" height="30" as="geometry" />
+        <mxCell id="FSRS8m-M1Gx-CwQgRFkG-127" value="" style="shape=mxgraph.bpmn.timer_start;perimeter=ellipsePerimeter;html=1;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="4">
+          <mxGeometry x="210.00000000000009" y="180" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="20" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0" parent="1" source="10" target="18" edge="1">
           <mxGeometry relative="1" as="geometry" />
