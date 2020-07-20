@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-20T03:34:59.343Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="ZPRmBzAEsDyodshLsbYo" version="13.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-20T03:46:12.376Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="EAaXJ-K2ZRFlpyn1MD-z" version="13.4.8" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="1422" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
@@ -39,6 +39,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="ZgSBh3Ju-aScIAcnqx4X-42" value="ユーザー操作" style="label;fontStyle=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;overflow=hidden;spacingLeft=28;spacingRight=4;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;imageWidth=16;imageHeight=16;image=img/clipart/Gear_128x128.png" vertex="1" parent="2">
+          <mxGeometry x="130" y="44" width="120" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="3" value="Thread 2&#xa;Javascript" style="swimlane;whiteSpace=wrap;startSize=40;" parent="1" vertex="1">
           <mxGeometry x="444.5" y="100" width="280" height="598" as="geometry" />
         </mxCell>
@@ -53,7 +56,7 @@
         <mxCell id="15" value="idle" style="" parent="3" vertex="1">
           <mxGeometry x="20" y="110" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="16" value="check for &#xa;new commands" style="" parent="3" vertex="1">
+        <mxCell id="16" value="新規キューの確認" style="" parent="3" vertex="1">
           <mxGeometry x="20" y="220" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="17" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0" parent="3" source="15" target="16" edge="1">
@@ -92,8 +95,8 @@
             <mxPoint x="230" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="30" value="dispatch&#xa;command&#xa;worker thread" style="" parent="3" vertex="1">
-          <mxGeometry x="140" y="325" width="110" height="50" as="geometry" />
+        <mxCell id="30" value="処理スレッドを実行" style="" parent="3" vertex="1">
+          <mxGeometry x="140" y="325" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="34" value="" style="whiteSpace=wrap;strokeColor=#FF0000;fillColor=#FF0000" parent="3" vertex="1">
           <mxGeometry x="245" y="395" width="5" height="45" as="geometry" />
@@ -137,11 +140,14 @@
         <mxCell id="20" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0" parent="1" source="10" target="18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eeX5rCYyHzRPNsev4CG7-41" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eeX5rCYyHzRPNsev4CG7-41" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="800" y="360" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eeX5rCYyHzRPNsev4CG7-42" value="WEBブラウザ動作" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eeX5rCYyHzRPNsev4CG7-42" value="WEBブラウザ動作" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="165" y="68" width="841" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgSBh3Ju-aScIAcnqx4X-41" value="item: attribute" style="label;fontStyle=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;overflow=hidden;spacingLeft=28;spacingRight=4;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;imageWidth=16;imageHeight=16;image=img/clipart/Gear_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="520" y="400" width="120" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
